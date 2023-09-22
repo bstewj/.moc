@@ -1,0 +1,69 @@
+#cito M:644 O:0 G:0 T:/usr/share/moc/themes/tfl_moc_theme
+#----------------------------------------------------------------------------------
+# Project Name      - Extra/misc/tfl_moc_theme
+# Started On        - Fri 19 Apr 14:40:16 BST 2019
+# Last Change       - Sat  7 Dec 00:15:24 GMT 2019
+# Author E-Mail     - terminalforlife@yahoo.com
+# Author GitHub     - https://github.com/terminalforlife
+#----------------------------------------------------------------------------------
+# Fields are parameter, foreground, background, and text effect, in that order.
+# The 'default' value for background seems to always translate to 'transparent'.
+# Hex values not valid, nor are modifiers like darkyellow.
+#
+# Designed for playlist-less use, via mplay in Extra repository on GitHub.
+#------------------------------------------------------------------------------MISC
+
+status                    =     yellow      default     bold
+title                     =     cyan       default     bold
+state                     =     yellow       default     bold
+
+enabled                   =     green      default     bold
+disabled                  =     white       default     bold
+
+sound_parameters          =     magenta      default     bold
+legend                    =     magenta       default     bold
+
+error                     =     red         default     normal
+message                   =     white       default     bold
+
+#------------------------------------------------------------------------------MAIN
+
+background                =     default     default     normal
+frame                     =     white      default       normal
+window_title              =     red        default     bold
+
+#-----------------------------------------------------------------------------FILES
+
+directory                 =     white        default     bold
+selected_directory        =     cyan        default     bold,underline
+
+file                      =     white       default     bold
+selected_file             =     green       default     bold,underline
+marked_selected_file      =     red         default      bold,underline
+marked_file               =     red         default     bold,underline
+
+info                      =     white      default     bold
+selected_info             =     black      green       bold,underline
+marked_info               =     red         default     bold
+marked_selected_info      =     red         default     bold
+
+#-----------------------------------------------------------------------------TIMES
+
+current_time              =     green       default     bold
+time_left                 =     red       default       bold
+total_time                =     white       default     bold
+time_total_frames         =     green       default     normal
+plist_time                =     red       default     bold
+
+#------------------------------------------------------------------------------BARS
+
+empty_mixer_bar           =     white      white       normal
+filled_mixer_bar          =     green    default       normal
+
+empty_time_bar            =     green      default      underline
+filled_time_bar           =     default     default       normal
+
+#-----------------------------------------------------------------------------ENTRY
+
+entry                     =     magenta      default     bold
+entry_title               =     white       default     bold
